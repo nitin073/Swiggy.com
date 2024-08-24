@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  display: flex;
+  /* border: 2px solid red; */
+  box-shadow: 7px 7px 5px gray;
+  /* position: fixed; */
+  justify-content: space-between;
+  height: 70px;
+  width: 1255px;
+  /* top: 2px; */
+  padding: 0px 90px;
+}
+.contents {
+  display: flex;
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contents > div {
+  margin: 0px 20px;
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents > div :hover {
+  color: orange;
+  cursor: pointer;
+  /* border: 2px solid red; */
+  fill: orange;
+}
+.contents span {
+  margin: 0px 10px;
+  font-size: 18px;
+}
+.offers sup {
+  color: gold;
+  font-weight: bold;
+}
+.left-side {
+  /* border: 2px solid maroon; */
+  display: flex;
+  /* width: 160px; */
+  justify-content: center;
+  align-items: center;
+}
+.left-side > select {
+  display: flex;
+  margin: 0px 36px;
+  padding-right: 30px;
+  border: none;
+}
+.Main-2 {
+  /* border: 2px solid green; */
+  padding: 20px 180px;
+}
+
+.Main-2 img {
+  height: 200px;
+}
+
+.Main-3 {
+  padding: 30px 160px;
+}
+.filters {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 30px 0px;
+}
+.filters button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+.filters button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px gray;
+}
+.card img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+.card:hover {
+  transform: scale(0.9);
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+  border-radius: 10px;
+}
+.card {
+  /* border: 8px solid aqua; */
+  width: 200px;
+  height: 300px;
+  /* margin-top: 60px; */
+  /* margin-left: 60px; */
+  /* height: 100px; */
+}
+.card-text {
+  padding: 5px 15px;
+  line-height: 20px;
+}
+.card-text span {
+  display: flex;
+  /* border: 2px solid orange; */
+  align-items: center;
+}
+.card-text p {
+  margin-top: 5px;
+  color: gray;
+}
+.AllCards {
+  /* border: 2px solid darkorchid; */
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
+  /* wrap-revverse  ->>> Jaisa v kuch cheej exits krta hai bro! */
+  grid-gap: 20px;
+  justify-content: center;
+}
